@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<head>
+  <body>
+    
+    <h1>Juvelyn balwit</h1>
+    <hr>
+    
+    <img src="BALWIT.jpg"alt="Photo of juvelyn Balwit" width="200"> My photo
+    
+    <h2>About Me</h2>
+    <p>Hello! My name is Juvelyn b. balwit I am loves English subject
+      
+      <h2>My Hobbies</h2>
+      <ul>
+        
+        <li>Playing Mobile Game</li>
+        <li>Watching Movies</li>
+        <li>Jogging</li>
+        
+      </ul>
+      
+      <h2>My Favorite Website</h2>
+
+      <a href="https://www.tiktok.com">Visit TikTok</a>
+
+      
+      <h2>Fun Facts About Me</h2>
+      <p>
+        
+        <b> Favorite Color:</b> Black <br>
+        <i>Favorite Food:</i> letchon <br>
+        <u>Dream Job:</u> Military
+      </p>
+      
+      <br>
+     <hr>
+     <br>
+     <h1>Simplicity in My Life</h1>
+     <hr>
+     <img src="BA;WIT.jfif" alt="My Photo" width="300">
+     <h2>My Reflection</h2>
+     <p>
+         This photo was taken during a relaxing afternoon  with fresh air. It shows exactly what <b>simplicity</b> means to me — finding true happiness in quiet, natural moments, without needing anything fancy or expensive.
+     </p>
+     <p>
+         <i>Being in this place</i> made me feel so calm and thankful. The shade from the laboratory lab, the sound of nature, and the peaceful atmosphere reminded me that joy does not come from material things. It comes from appreciating the beauty around us.
+     </p>
+     <p>
+         This moment also taught me to slow down. Even with schoolwork and daily tasks, taking time to rest and enjoy nature helps me feel refreshed. This is why I value simplicity — it keeps my heart happy.
+     </p>
+     <h2>Things Visible in the Photo</h2>
+     <ul>
+         <li>Computers and monitors</li>
+         <li>Study tables and chairs</li>
+         <li>Bright and clean room</li>
+         <li>Windows and good lighting</li>
+     </ul>
+     <h2>Events Before, During, and After</h2>
+     <ol>
+         <li>I finished my school tasks and decided to go out to relax.</li>
+         <li>I arrived at this beach spot and found a nice, shaded place to sit.</li>
+         <li>I took this photo to keep the memory of this peaceful day.</li>
+         <li>I spent time enjoying the fresh air and quiet surroundings.</li>
+         <li>I saved this photo to tell the story of what simplicity means to me.</li>
+     </ol>
+ </body>
+ </html>
+
+   
+Displaying juvelyn.html.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBF Connect - Profile Overview</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #5e6e70;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+    /* Decorative background shapes */
+    .deco-shape {
+      position: absolute;
+      border-radius: 50px;
+      opacity: 0.6;
+      z-index: 0;
+    }
+    .shape-1 {
+      width: 180px;
+      height: 24px;
+      background: #d8c95a;
+      top: 60px;
+      left: -40px;
+      transform: rotate(35deg);
+    }
+    .shape-2 {
+      width: 160px;
+      height: 20px;
+      background: #7ea8a8;
+      top: 80px;
+      left: 120px;
+      transform: rotate(35deg);
+    }
+    .shape-3 {
+      width: 200px;
+      height: 26px;
+      background: #d8c95a;
+      bottom: 100px;
+      right: -30px;
+      transform: rotate(-35deg);
+    }
+    .shape-4 {
+      width: 150px;
+      height: 18px;
+      background: #7ea8a8;
+      bottom: 140px;
+      right: 80px;
+      transform: rotate(-35deg);
+    }
+    .shape-5 {
+      width: 120px;
+      height: 16px;
+      background: #d8c95a;
+      bottom: 60px;
+      right: 200px;
+      transform: rotate(-35deg);
+    }
+    .shape-6 {
+      width: 100px;
+      height: 14px;
+      background: #7ea8a8;
+      bottom: 40px;
+      left: 60px;
+      transform: rotate(35deg);
+    }
+    /* Main container */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      position: relative;
+      z-index: 1;
+    }
+    /* Header bar */
+    .header {
+      background: #1a1a1a;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 24px;
+      border-radius: 8px 8px 0 0;
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .logo {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .logo span {
+      font-weight: 400;
+      color: #6ab0b0;
+    }
+    .logo small {
+      display: block;
+      font-size: 9px;
+      font-weight: 400;
+      color: #aaa;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .divider {
+      color: #888;
+    }
+    .page-title {
+      font-size: 14px;
+      color: #ccc;
+      font-weight: 500;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .user-info-header {
+      text-align: right;
+    }
+    .user-info-header .name {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .user-info-header .last-login {
+      font-size: 10px;
+      color: #888;
+    }
+    .avatar-small {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #ccc;
+      overflow: hidden;
+      border: 2px solid #666;
+    }
+    .avatar-small img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .icon-btn {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    .icon-btn:hover {
+      background: rgba(255,255,255,0.1);
+    }
+    /* Hero banner */
+    .hero-banner {
+      width: 100%;
+      height: 180px;
+      background: linear-gradient(135deg, #4a5d5e 0%, #6a8a8a 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.85;
+    }
+    /* Profile card */
+    .profile-card {
+      background: #f5f5f5;
+      padding: 0 40px 40px;
+      position: relative;
+      border-radius: 0 0 8px 8px;
+    }
+    .profile-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-top: 16px;
+      position: relative;
+    }
+    .avatar-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: -50px;
+      position: relative;
+    }
+    .avatar-large {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #ddd;
+      overflow: hidden;
+      border: 4px solid #f5f5f5;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .avatar-large img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .edit-icon {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      width: 22px;
+      height: 22px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #555;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+      cursor: pointer;
+    }
+    .profile-info {
+      padding-top: 16px;
+    }
+    .profile-name {
+      font-size: 20px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 4px;
+    }
+    .profile-stats {
+      font-size: 12px;
+      color: #888;
+    }
+    .profile-stats span {
+      color: #2a9db5;
+      cursor: pointer;
+    }
+    .save-btn {
+      padding: 8px 20px;
+      border: 1px solid #2a9db5;
+      color: #2a9db5;
+      background: transparent;
+      border-radius: 20px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-top: 10px;
+    }
+    .save-btn:hover {
+      background: #2a9db5;
+      color: #fff;
+    }
+    /* Form section */
+    .form-section {
+      margin-top: 30px;
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #888;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+    .form-row {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      flex: 1;
+    }
+    .form-group label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: #888;
+      margin-bottom: 6px;
+      text-transform: capitalize;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #555;
+      background: #fff;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus {
+      border-color: #2a9db5;
+    }
+    .form-group input::placeholder {
+      color: #bbb;
+    }
+    /* Feedback button */
+    .feedback-btn {
+      position: fixed;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%) rotate(-90deg);
+      transform-origin: right center;
+      background: #2a9db5;
+      color: #fff;
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px 4px 0 0;
+      z-index: 100;
+      letter-spacing: 0.5px;
+    }
+    .feedback-btn:hover {
+      background: #238a9f;
+    }
+    /* Responsive */
+    @media (max-width: 640px) {
+      .container {
+        margin: 20px;
+      }
+      .form-row {
+        flex-direction: column;
+        gap: 16px;
+      }
+      .profile-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .avatar-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -40px;
+      }
+      .profile-info {
+        padding-top: 8px;
+      }
+      .save-btn {
+        margin-top: 16px;
+      }
+      .header {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .header-right {
+        gap: 10px;
+      }
+      .user-info-header {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Decorative background shapes -->
+  <div class="deco-shape shape-1"></div>
+  <div class="deco-shape shape-2"></div>
+  <div class="deco-shape shape-3"></div>
+  <div class="deco-shape shape-4"></div>
+  <div class="deco-shape shape-5"></div>
+  <div class="deco-shape shape-6"></div>
+
+  <!-- Feedback button -->
+  <button class="feedback-btn">Feedback</button>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-left">
+        <div class="logo">
+          NBF <span>CONNECT</span>
+          <small>Connecting Minds</small>
+        </div>
+        <span class="divider">|</span>
+        <span class="page-title">PROFILE</span>
+      </div>
+      <div class="header-right">
+        <div class="user-info-header">
+          <div class="name">Juvelyn Balwit</div>
+          <div class="last-login">New Login: June 22, 2026</div>
+        </div>
+        <div class="avatar-small">
+          <img src="BALWIT.jpg"alt="Juvelyn" />
+        </div>
+        <div class="icon-btn">☰</div>
+        <div class="icon-btn">G</div>
+      </div>
+    </div>
+
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+      <img src="BALWIT.jpg" alt="Banner" />
+    </div>
+
+    <!-- Profile Card -->
+    <div class="profile-card">
+      <div class="profile-header">
+        <div class="avatar-section">
+          <div class="avatar-large">
+            <img src="BALWIT.jpg" alt="Juvelyn" />
+            <div class="edit-icon">✎</div>
+          </div>
+          <div class="profile-info">
+            <div class="profile-name">Juvelyn Balwit</div>
+            <div class="profile-stats">
+              <span>130 followers</span> . <span>21 following</span>
+            </div>
+          </div>
+        </div>
+        <button class="save-btn">Save changes</button>
+      </div>
+
+      <!-- Form -->
+      <div class="form-section">
+        <div class="section-title">Personal details</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>First name</label>
+            <input type="text" value="Juvelyn " />
+          </div>
+          <div class="form-group">
+            <label>Last name</label>
+            <input type="text" value="Balwit" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Mobile number</label>
+            <input type="text" value="09653860893" />
+          </div>
+          <div class="form-group">
+            <label>Email ID</label>
+            <input type="text" value="jovelynbalwit8@gmail.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>GENDER</label>
+            <input type="text" value="Female" />
+          </div>
+          <div class="form-group"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
